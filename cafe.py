@@ -28,7 +28,7 @@ while options_menu:
     
     if choice == 1:
         
-        print("The current items on the menu are:")
+        print("The current items on the menu in Super Coffee are:")
 
         for item in menu:
             print(item)
