@@ -3,12 +3,16 @@ menu = ['coffee','tea','cake','juice box']
 stock = {'coffee':5,
          'tea':4,
          'cake':6,
-         'juice box':2}
+         'juice box':2
+         'latte':3
+        }
 
 price = {'coffee':3.99,
          'tea':1.99,
          'cake':3,
-         'juice box':1}
+         'juice box':1
+         'latte':4
+        }
 
 
 options_menu = True
@@ -28,7 +32,7 @@ while options_menu:
     
     if choice == 1:
         
-        print("The current items on the menu are:")
+        print("The current items on the menu in Super Coffee are:")
 
         for item in menu:
             print(item)
